@@ -1,0 +1,79 @@
+{
+  "id": "1428289",
+  "name": "icon",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "357441",
+      "name": "成本",
+      "font_class": "cost",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "986184",
+      "name": "微信",
+      "font_class": "weixin-copy",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "1110453",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "1231603",
+      "name": "电话",
+      "font_class": "dianhua",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "4460206",
+      "name": "火箭",
+      "font_class": "huojian",
+      "unicode": "e68e",
+      "unicode_decimal": 59022
+    },
+    {
+      "icon_id": "5831837",
+      "name": "电脑",
+      "font_class": "diannao",
+      "unicode": "e699",
+      "unicode_decimal": 59033
+    },
+    {
+      "icon_id": "6176582",
+      "name": "网络",
+      "font_class": "wangluo",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "7933285",
+      "name": "喇叭",
+      "font_class": "laba",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "8156501",
+      "name": "趋势",
+      "font_class": "qushi",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "8288843",
+      "name": "勾",
+      "font_class": "gou",
+      "unicode": "e84b",
+      "unicode_decimal": 59467
+    }
+  ]
+}
