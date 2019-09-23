@@ -1,5 +1,7 @@
 <template>
   <div class="index">
+    <!-- 轮播图和字体部分 -->
+    <swipeCon/>
     <!-- 引视商用系统桌面部分 -->
     <div class="content">
       <div class="content_title">
@@ -116,7 +118,13 @@
 </template>
 
 <script>
-export default {};
+import swipeCon from '../components/swipeCon'
+export default {
+  name: 'titleContent',
+  components:{
+    swipeCon,
+  }
+};
 </script>
 
 <style lang="less" scoped>

@@ -27,6 +27,13 @@
       "unicode_decimal": 58929
     },
     {
+      "icon_id": "1129600",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
       "icon_id": "1231603",
       "name": "电话",
       "font_class": "dianhua",
@@ -41,6 +48,13 @@
       "unicode_decimal": 59022
     },
     {
+      "icon_id": "5651524",
+      "name": "下一项",
+      "font_class": "xiayixiang",
+      "unicode": "e68f",
+      "unicode_decimal": 59023
+    },
+    {
       "icon_id": "5831837",
       "name": "电脑",
       "font_class": "diannao",
@@ -53,6 +67,20 @@
       "font_class": "wangluo",
       "unicode": "e62b",
       "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "6528445",
+      "name": "电视",
+      "font_class": "dianshi",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "6528449",
+      "name": "路由器",
+      "font_class": "luyouqi",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
     },
     {
       "icon_id": "7933285",
@@ -74,6 +102,13 @@
       "font_class": "gou",
       "unicode": "e84b",
       "unicode_decimal": 59467
+    },
+    {
+      "icon_id": "9559064",
+      "name": "播放",
+      "font_class": "ziyuan",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
     }
   ]
 }

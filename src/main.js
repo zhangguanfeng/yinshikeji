@@ -5,7 +5,7 @@ import App from './App'
 import router from './router'
 import './assets/css/Chongzhi.css'
 // 引入字体图标
-import './assets/iconfont/font_1428289_sysidis16il/iconfont.css'
+import './assets/iconfont/font_1428289_ztg200wcbah/iconfont.css'
 // 计算rem插件
 import 'lib-flexible/flexible'
 // 引入ui框架

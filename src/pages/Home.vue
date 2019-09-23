@@ -8,10 +8,9 @@
       <div class="headers">
         <!-- 头部导航栏 -->
         <headerBar/>
-        <!-- 轮播图和字体部分 -->
-        <swipeCon/>
         <!-- 标题内容 -->
-        <titleContent/>
+        <!-- <titleContent/> -->
+        <router-view></router-view>
       </div>
     </div>
   </div>
@@ -19,15 +18,13 @@
 
 <script>
 import headerBar from '../components/headerBar'
-import swipeCon from '../components/swipeCon'
 import titleContent from "../components/titleContent";
 export default {
   components: {
     headerBar,
-    swipeCon,
-    titleContent,
+    // titleContent,
   },
-  name: "index",
+  name: "home",
   data() {
     return {
       
