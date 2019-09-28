@@ -4,6 +4,7 @@ import Home from '@/pages/Home'
 import Download from '../pages/download/index.vue'
 import Dynamic from '../pages/dynamic/index .vue'
 import titleContent from '../components/titleContent.vue'
+import Plan from '../pages/plan/index.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -28,6 +29,11 @@ export default new Router({
           path: 'dynamic',
           name: 'dynamic',
           component: Dynamic,
+        },
+        {
+          path: 'plan',
+          name: 'plan',
+          component: Plan,
         },
       ]
     }

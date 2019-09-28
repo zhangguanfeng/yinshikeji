@@ -77,7 +77,7 @@ export default {
           id: 4,
           isPitch: false,
           tlitle: "教程中心",
-          name: "plan"
+          name: "tutorial"
         },
         {
           id: 5,
@@ -129,6 +129,9 @@ export default {
 }
 .headerBar {
   /* 导航栏 */
+  .rolling_navbar::-webkit-scrollbar{
+    display: none;
+  }
   .rolling_navbar{
     overflow-y: hidden;
     .navbar {

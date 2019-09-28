@@ -5,7 +5,7 @@
     </div>
     <!-- 内容 -->
     <div class="w">
-      <div class="headers">
+      <div>
         <!-- 头部导航栏 -->
         <headerBar/>
         <!-- 标题内容 -->
