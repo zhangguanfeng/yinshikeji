@@ -13,6 +13,8 @@
         <router-view></router-view>
       </div>
     </div>
+    <!-- 遮罩层 -->
+    <!-- <div class="zhezhao"></div> -->
   </div>
 </template>
 
@@ -50,6 +52,16 @@ export default {
   .w {
     padding: 0px 25px;
   }
+}
+.zhezhao{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.5;
+  z-index: 5;
 }
 
 

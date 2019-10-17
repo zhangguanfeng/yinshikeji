@@ -1,6 +1,6 @@
 
 /** 清除内外边距 **/
-body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote,span, /* structural elements 结构元素 */
 dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
 pre, /* text formatting elements 文本格式元素 */
 form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
@@ -12,6 +12,7 @@ th, td /* table elements 表格元素 */ {
 /** 设置默认字体 **/
 body,
 button, input, select, textarea /* for ie */ {
+  /* font-family: PingFangSC-Regular, sans-serif; */
   font: 12px/1.5 tahoma, arial, \5b8b\4f53, sans-serif;
 }
 h1, h2, h3, h4, h5, h6 { font-size: 100%; }
@@ -48,4 +49,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 }
 .ks-clear, .clear {
   *zoom: 1;
+}
+img{
+  width: 100%;
 }

@@ -23,28 +23,22 @@
       <mt-swipe :auto="4000">
         <mt-swipe-item>
           <div class="img">
-            <img
-              src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1569063360981&di=273486b7744a4b7ea4cd416e6e15b983&imgtype=0&src=http%3A%2F%2Fwww.k73.com%2Fup%2Fphoto%2F2014%2F0927%2F105914_69924337.jpg"
-              alt=""
-            >
+            <img src="../assets/images/swp1.jpg" alt="">
           </div>
         </mt-swipe-item>
         <mt-swipe-item>
           <div class="img">
-            <img
-              src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1569063360981&di=bd93175ed3e109ae241c81312d03534a&imgtype=0&src=http%3A%2F%2Fimg1.cache.netease.com%2Fcatchpic%2F2%2F24%2F24590C256B176258119A968E22D61F55.jpg"
-              alt=""
-            >
+            <img src="../assets/images/swp2.jpg" alt="">
+            
           </div>
         </mt-swipe-item>
         <mt-swipe-item>
           <div class="img">
-            <img
-              src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1569063400057&di=0636081aeb7d7293e58c464b150022eb&imgtype=0&src=http%3A%2F%2Fimg0.pcgames.com.cn%2Fpcgames%2F1205%2F09%2F2521891_v14.jpg"
-              alt=""
-            >
+            <img src="../assets/images/swp3.jpg" alt="">
+            
           </div>
         </mt-swipe-item>
+        
       </mt-swipe>
     </div>
   </div>
@@ -73,12 +67,12 @@ export default {
           tlitle: "解决方案",
           name: "plan"
         },
-        {
-          id: 4,
-          isPitch: false,
-          tlitle: "教程中心",
-          name: "tutorial"
-        },
+        // {
+        //   id: 4,
+        //   isPitch: false,
+        //   tlitle: "教程中心",
+        //   name: "tutorial"
+        // },
         {
           id: 5,
           isPitch: false,
@@ -97,7 +91,6 @@ export default {
           tlitle: "关于我们",
           name: "about"
         },
-        
       ]
     };
   },
@@ -153,15 +146,14 @@ export default {
   .swipes {
     .mint-swipe {
       margin-top: 5%;
-      height: 356px;
-      border-radius: 30px;
+      height: 412px;
+      border-radius: 40px;
       .img {
         width: 100%;
         height: 100%;
-        background: #ccc;
-        overflow: hidden;
+        // overflow: hidden;
         img {
-          width: 100%;
+          min-width: 100%;
         }
       }
     }

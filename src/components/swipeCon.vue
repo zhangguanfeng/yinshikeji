@@ -4,7 +4,7 @@
     <!-- 字体轮播 -->
     <div class="ziTiswipe">
       <div class="icon_laba">
-        <i class="iconfont icon-laba"></i>
+        <img src="../assets/images/laba_ico.png" alt="">
       </div>
       <mt-swipe :show-indicators="false">
         <mt-swipe-item>
@@ -55,12 +55,11 @@ export default {};
     .icon_laba {
       position: absolute;
       left: 15px;
-      top: 3px;
-      width: 40px;
-      height: 40px;
-      i {
-        font-size: 50px;
-        color: #292bcb;
+      top: 18px;
+      width: 45px;
+      height: 45px;
+      img{
+        width: 100%;
       }
     }
   }

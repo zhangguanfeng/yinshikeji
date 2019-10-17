@@ -27,6 +27,9 @@
             <p>欢迎新老客户和代理商访问获取更多资讯</p>
           </div>
         </div>
+        <div class="dynamic_information_img" >
+          <img src="../../assets/images/dynamic1.png" alt="">
+        </div>
       </div>
     </div>
     <!-- 2 -->
@@ -60,6 +63,9 @@
             <p>国内首创APK管理推送功能，支持自定义主题和主题在线预览功能</p>
           </div>
         </div>
+        <div class="dynamic_information_img" >
+          <img src="../../assets/images/dynamic2.png" alt="">
+        </div>
       </div>
     </div>
     <!-- 3 -->
@@ -88,6 +94,9 @@
             <span></span>
             <p>开机LOGO和首页幻灯片可做广告位</p>
           </div>
+        </div>
+        <div class="dynamic_information_img" >
+          <img src="../../assets/images/dynamic3.png" alt="">
         </div>
       </div>
     </div>
@@ -143,6 +152,7 @@ export default {
       border-radius: 20px;
       // height: 363px;
       padding: 42px 30px;
+      position: relative;
       .dynamic_information_left {
         .dynamic_information_text {
           box-sizing: border-box;
@@ -170,6 +180,13 @@ export default {
             width: 342px;
           }
         }
+      }
+      .dynamic_information_img{
+        position: absolute;
+        right: 3%;
+        top: 20%;
+        width: 300px;
+        z-index: -1;
       }
     }
   }
