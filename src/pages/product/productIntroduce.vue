@@ -114,6 +114,7 @@
 </script>
 
 <style lang="less" scoped>
+  @firmColor:#5d5d5d;
   .box {
     margin-bottom: 86px;
     .box_text {
@@ -164,7 +165,7 @@
     border-radius: 20px;
     border: 2px solid #ccc;
     box-shadow:2px -2px 6px #ccc;
-    color: #292bcb;
+    color: @firmColor;
     .content_contact_number_img{
       
       width: 96px;
@@ -181,12 +182,12 @@
   // 公共样式开始
   .content_title_line {
     width: 286px;
-    border-top: 2px solid #292bcb;
+    border-top: 2px solid @firmColor;
 
     span {
       display: block;
       width: 40px;
-      border-top: 3px solid #292bcb;
+      border-top: 3px solid @firmColor;
 
     }
   }
@@ -196,7 +197,7 @@
     justify-content: space-between;
     margin: 20px 0;
     font-size: 35px;
-    color: #292bcb;
+    color: @firmColor;
   }
 
   // 公共样式结束

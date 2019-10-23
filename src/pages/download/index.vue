@@ -11,21 +11,22 @@
     <div class="dialog" v-show="isShow == 1">
       <div class="dialog_box">
         <span class="dialog_box_icon">
-          <img src="../../assets/images/download.png" alt="">
+          <i class="iconfont icon-huancun"></i>
         </span>
         <h3>引视 IPTV桌面系统V1.6稳定版发布</h3>
         <div class="dialog_box_text">
-          <a href="http://cloud.nhw6.com:9191/iptvsoft/tv/itvdesk-1.6.apk" target="_blank"><span>
-              <img src="../../assets/images/download.png" alt="">
-            </span> 点击下载</a>
+          <div>
+            <p>下载地址</p>
+            <p>
+              http://cloud.iptv9.cn:9191/iptvsoft/tv/itvdesk-1.6.apk
+            </p> 
+          </div>
           <p>
-            <span>
-              <img src="../../assets/images/update.png" alt="">
+            <span class="iconfont icon-iconset0346">
             </span>
             更新日志—重大更新</p>
           <p>
-            <span>
-              <img src="../../assets/images/star.png" alt="">
+            <span class="iconfont icon-xingxing">
             </span>
             修复机顶盒绑定房间问题</p>
         </div>
@@ -37,21 +38,22 @@
     <div class="dialog" v-show="isShow == 2">
       <div class="dialog_box">
         <span class="dialog_box_icon">
-          <img src="../../assets/images/download.png" alt="">
+          <i class="iconfont icon-huancun"></i>
         </span>
         <h3>引视 IPTV桌面系统V1.3稳定版发布</h3>
         <div class="dialog_box_text">
-          <a href="http://cloud.nhw6.com:9191/iptvsoft/tv/itvplayer-1.3.apk" target="_blank"><span>
-              <img src="../../assets/images/download.png" alt="">
-            </span> 点击下载</a>
+          <div>
+            <p>下载地址</p>
+            <p>
+              http://cloud.iptv9.cn:9191/iptvsoft/tv/itvplayer-1.3.apk
+            </p> 
+          </div>
           <p>
-            <span>
-              <img src="../../assets/images/update.png" alt="">
+            <span class="iconfont icon-iconset0346">
             </span>
             更新日志—重大更新</p>
           <p>
-            <span>
-              <img src="../../assets/images/star.png" alt="">
+            <span class="iconfont icon-xingxing">
             </span>
             添加多源切换</p>
         </div>
@@ -63,21 +65,22 @@
     <div class="dialog" v-show="isShow == 3">
       <div class="dialog_box">
         <span class="dialog_box_icon">
-          <img src="../../assets/images/download.png" alt="">
+          <i class="iconfont icon-huancun"></i>
         </span>
         <h3>IPTV手机端桌面稳定版V1.1发布</h3>
         <div class="dialog_box_text">
-          <a href="http://cloud.nhw6.com:9191/iptvsoft/phone/phone-hotel-1.1.apk" target="_blank"><span>
-              <img src="../../assets/images/download.png" alt="">
-            </span> 点击下载</a>
+          <div>
+            <p>下载地址</p>
+            <p>
+              http://cloud.iptv9.cn:9191/iptvsoft/phone/phone-hotel-1.1.apk
+            </p> 
+          </div>
           <p>
-            <span>
-              <img src="../../assets/images/update.png" alt="">
+            <span class="iconfont icon-iconset0346">
             </span>
             更新日志—重大更新</p>
           <p>
-            <span>
-              <img src="../../assets/images/star.png" alt="">
+            <span class="iconfont icon-xingxing">
             </span>
             改善稳定性，适配机型</p>
         </div>
@@ -89,21 +92,22 @@
     <div class="dialog" v-show="isShow == 4">
       <div class="dialog_box">
         <span class="dialog_box_icon">
-          <img src="../../assets/images/download.png" alt="">
+          <i class="iconfont icon-huancun"></i>
         </span>
         <h3>IPTV手机端播放器稳定版V1.1发布</h3>
         <div class="dialog_box_text">
-          <a href="http://cloud.nhw6.com:9191/iptvsoft/phone/phone-player-1.1.apk" target="_blank"><span>
-              <img src="../../assets/images/download.png" alt="">
-            </span> 点击下载</a>
+          <div>
+            <p>下载地址</p>
+            <p>
+              http://cloud.iptv9.cn:9191/iptvsoft/phone/phone-player-1.1.apk
+            </p> 
+          </div>
           <p>
-            <span>
-              <img src="../../assets/images/update.png" alt="">
+            <span class="iconfont icon-iconset0346">
             </span>
             更新日志—重大更新</p>
           <p>
-            <span>
-              <img src="../../assets/images/star.png" alt="">
+            <span class="iconfont icon-xingxing">
             </span>
             改善稳定性，适配机型</p>
         </div>
@@ -116,21 +120,22 @@
     <div class="dialog" v-show="isShow == 5">
       <div class="dialog_box">
         <span class="dialog_box_icon">
-          <img src="../../assets/images/download.png" alt="">
+          <i class="iconfont icon-huancun"></i>
         </span>
         <h3>路由系统稳定版V1.20发布</h3>
+        <div></div>
         <div class="dialog_box_text">
-          <a href="http://cloud.nhw6.com:9191/iptvsoft/router/nss_x64_v1.20.GHO" target="_blank"><span>
-              <img src="../../assets/images/download.png" alt="">
-            </span> 点击下载</a>
+          <div>
+            <p>下载地址</p>
+            <p>http://cloud.iptv9.cn:9191/iptvsoft/router/nss_x64_v1.20.GHO</p> 
+          </div>
+          
           <p>
-            <span>
-              <img src="../../assets/images/update.png" alt="">
+            <span class="iconfont icon-iconset0346">
             </span>
             更新日志—重大更新</p>
           <p>
-            <span>
-              <img src="../../assets/images/star.png" alt="">
+            <span class="iconfont icon-xingxing">
             </span>
             修复解码内存泄漏BUG</p>
         </div>
@@ -142,21 +147,21 @@
     <div class="dialog" v-show="isShow == 6">
       <div class="dialog_box">
         <span class="dialog_box_icon">
-          <img src="../../assets/images/download.png" alt="">
+          <i class="iconfont icon-huancun"></i>
         </span>
         <h3>路由升级配置v1.57发布</h3>
+        
         <div class="dialog_box_text">
-          <a href="http://cloud.nhw6.com:9191/iptvsoft/router/namiao-x64-1.57.1909241569330144.bin" target="_blank"><span>
-              <img src="../../assets/images/download.png" alt="">
-            </span> 点击下载</a>
+          <div>
+            <p>下载地址</p>
+            <p>http://cloud.iptv9.cn:9191/iptvsoft/router/namiao-x64-1.57.1909241569330144.bin</p> 
+          </div>
           <p>
-            <span>
-              <img src="../../assets/images/update.png" alt="">
+            <span class="iconfont icon-iconset0346">
             </span>
             更新日志—重大更新</p>
           <p>
-            <span>
-              <img src="../../assets/images/star.png" alt="">
+            <span class="iconfont icon-xingxing">
             </span>
             添加iptv LAN口</p>
         </div>
@@ -211,7 +216,8 @@
             title: "路由升级配置下载",
             classname: "iconfont icon-huojian"
           }
-        ]
+        ],
+        iptv:'http://cloud.iptv9.cn:9191/iptvsoft/'
       };
     },
     methods: {
@@ -237,8 +243,9 @@
 </script>
 
 <style lang="less" scoped>
+  @firmColor:#5d5d5d;
   .iscarste {
-    background: #2929cc;
+    background: @firmColor;
     color: #fff !important;
   }
 
@@ -270,7 +277,7 @@
         }
 
         i {
-          color: #292bcb;
+          color: @firmColor;
 
           font-size: 100px;
         }
@@ -300,17 +307,20 @@
     .dialog_box {
       height: 900px;
       width: 570px;
-      padding-top: 240px;
+      padding-top: 100px;
       border-radius: 30px;
       border: #ccc solid 2px;
       box-sizing: border-box;
-      color: #292bcb;
+      color: @firmColor;
       background: #fff;
       text-align: center;
 
       .dialog_box_icon {
         display: inline-block;
-        width: 135px;
+        // width: 135px;
+        i{
+          font-size: 150px;
+        }
       }
 
       h3 {
@@ -322,22 +332,22 @@
       }
 
       .dialog_box_text {
+        box-sizing: border-box;
         text-align: left;
         font-size: 20px;
         padding-left: 50px;
-
+        P{
+          word-wrap:break-word;
+        }
         a {
-          color: #292bcb;
+          color: @firmColor;
         }
 
         span {
           display: inline-block;
-          width: 35px;
-          height: 35px;
-
-          img {
-            vertical-align: middle;
-          }
+          font-size: 25px;
+          font-weight: 800;
+          
         }
 
       }

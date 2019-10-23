@@ -26,7 +26,6 @@
               <img src="../../assets/images/jiaocheng1.png" alt="">
             </div>
             </div>
-            
           </div>
         </el-carousel-item>
         <el-carousel-item name='2'>
@@ -40,7 +39,6 @@
                 <img src="../../assets/images/jiaocheng2.png" alt="">
               </div>
             </div>
-
           </div>
         </el-carousel-item>
         <el-carousel-item name='3'>

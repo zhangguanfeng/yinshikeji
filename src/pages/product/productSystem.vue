@@ -38,14 +38,16 @@ export default {
 </script>
 
 <style lang="less" scoped>
+  @firmColor:#5d5d5d;
+
 // 公共样式开始
 .content_title_line {
   width: 286px;
-  border-top: 2px solid #292bcb;
+  border-top: 2px solid @firmColor;
   span {
     display: block;
     width: 40px;
-    border-top: 3px solid #292bcb;
+    border-top: 3px solid @firmColor;
     
   }
 }
@@ -54,13 +56,13 @@ export default {
   justify-content: space-between;
   margin: 30px 0;
   font-size: 30px;
-  color: #292bcb;
+  color: @firmColor;
   div {
     font-size: 25px;
     color: #666;
     i{
       font-size: 20px;
-      color: #292bcb;
+      color: @firmColor;
     }
   }
 }
@@ -85,7 +87,7 @@ export default {
     border-radius: 20px;
     border: 2px solid #ccc;
     box-shadow:2px -2px 6px #ccc;
-    color: #292bcb;
+    color: @firmColor;
     .content_contact_number_img{
       
       width: 96px;

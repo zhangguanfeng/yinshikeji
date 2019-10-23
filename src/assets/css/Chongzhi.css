@@ -13,7 +13,8 @@ th, td /* table elements 表格元素 */ {
 body,
 button, input, select, textarea /* for ie */ {
   /* font-family: PingFangSC-Regular, sans-serif; */
-  font: 12px/1.5 tahoma, arial, \5b8b\4f53, sans-serif;
+  /* font: 12px/1.5 tahoma, arial, \5b8b\4f53, sans-serif; */
+  font-family: PingFangSC-Light, sans-serif;
 }
 h1, h2, h3, h4, h5, h6 { font-size: 100%; }
 address, cite, dfn, em, var { font-style: normal; } /* 将斜体扶正 */
@@ -53,3 +54,4 @@ table { border-collapse: collapse; border-spacing: 0; }
 img{
   width: 100%;
 }
+

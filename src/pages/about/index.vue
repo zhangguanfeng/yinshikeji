@@ -101,22 +101,22 @@
             <img src="../../assets/images/weixin.png" alt="">
           </div>
           <span>微信</span>
-          <p>hz1380013800</p>
+          <p>TCWMsys</p>
         </div>
-        <div class="about_icon_unit">
+        <a class="about_icon_unit" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=728191908&site=qq&menu=yes">
           <div class="about_icon_unit_img">
             <img src="../../assets/images/QQ .png" alt="">
           </div>
           <span>QQ</span>
-          <p>478269761</p>
-        </div>
-        <div class="about_icon_unit">
+          <p>728191908</p>
+        </a>
+        <a class="about_icon_unit" href="tel:18029997099">
           <div class="about_icon_unit_img">
             <img src="../../assets/images/dianhua.png" alt="">
           </div>
           <span>手机号</span>
-          <p>13829914910</p>
-        </div>
+          <p>18029997099</p>
+        </a>
       </div>
     </div>
     <div class="site">
@@ -140,9 +140,9 @@
 </script>
 
 <style lang="less" scoped>
-
+  @firmColor:#5d5d5d;
 /deep/.mint-swipe-indicator{
-  background: #2929cc ;
+  background: @firmColor ;
   width: 15px ;
   height: 15px ;
   opacity:1;
@@ -164,7 +164,7 @@
         padding-bottom: 42px;
         font-size: 35px;
         font-weight: 800;
-        color: #2929cc;
+        color: @firmColor;
         text-align: center;
       }
 
@@ -188,7 +188,7 @@
               display: flex;
               flex-direction: column;
               justify-content: space-between;
-              color: #2929cc;
+              color: @firmColor;
 
               span {
                 font-weight: 800;
@@ -233,11 +233,11 @@
             width: 10px;
             height: 10px;
             margin-right: 15px;
-            background: #292bcb;
+            background: @firmColor;
           }
 
           p {
-            color: #2929cc;
+            color: @firmColor;
           }
         }
       }
@@ -257,7 +257,7 @@
 
       h3 {
         text-align: center;
-        color: #2929cc;
+        color: @firmColor;
         font-size: 35px;
         margin-bottom: 42px;
       }
@@ -285,11 +285,11 @@
             width: 10px;
             height: 10px;
             margin-right: 15px;
-            background: #292bcb;
+            background: @firmColor;
           }
 
           p {
-            color: #2929cc;
+            color: @firmColor;
           }
         }
       }
@@ -325,7 +325,7 @@
         padding-bottom: 42px;
         font-size: 35px;
         font-weight: 800;
-        color: #2929cc;
+        color: @firmColor;
         text-align: center;
       }
 
@@ -339,22 +339,12 @@
           justify-content: space-between;
           align-items: center;
           padding-bottom: 60px;
-          color: #2929cc;
+          color: @firmColor;
           .about_icon_unit_img{
                 border-radius: 50%;
                 width: 132px;
                 height: 132px;
               }
-          .weixin {
-            color: #3fcf56;
-          }
-          .QQ{
-            color: #1296db;
-          }
-          .shouji {
-            color: #2b61fe;
-          }
-
           span {
             padding-top: 40px;
             padding-bottom: 22px;
@@ -388,12 +378,12 @@
         padding-bottom: 42px;
         font-size: 35px;
         font-weight: 800;
-        color: #2929cc;
+        color: @firmColor;
         text-align: center;
       }
 
       .about_icon {
-        color: #2929cc;
+        color: @firmColor;
         font-size: 28px;
         padding-bottom: 60px;
         i{

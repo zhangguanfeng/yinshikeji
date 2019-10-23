@@ -111,6 +111,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
+  @firmColor:#5d5d5d;
 .dynamic {
   color: #666;
   margin-top: 60px;
@@ -118,11 +119,11 @@ export default {
   .content_title {
     .content_title_line {
       width: 286px;
-      border-top: 2px solid #292bcb;
+      border-top: 2px solid @firmColor;
       span {
         display: block;
         width: 40px;
-        border-top: 3px solid #292bcb;
+        border-top: 3px solid @firmColor;
       }
     }
     .content_title_text {
@@ -130,7 +131,7 @@ export default {
       justify-content: space-between;
       margin: 30px 0;
       font-size: 30px;
-      color: #292bcb;
+      color: @firmColor;
       div {
         font-size: 25px;
         color: #666;
@@ -174,7 +175,7 @@ export default {
             width: 10px;
             height: 10px;
             margin-right: 15px;
-            background: #292bcb;
+            background: @firmColor;
           }
           p {
             width: 342px;

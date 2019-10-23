@@ -20,11 +20,25 @@
       "unicode_decimal": 58930
     },
     {
+      "icon_id": "554399",
+      "name": "更新",
+      "font_class": "iconset0346",
+      "unicode": "e6f5",
+      "unicode_decimal": 59125
+    },
+    {
       "icon_id": "986184",
       "name": "微信",
       "font_class": "weixin-copy",
       "unicode": "e652",
       "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "1032410",
+      "name": "星星",
+      "font_class": "xingxing",
+      "unicode": "e642",
+      "unicode_decimal": 58946
     },
     {
       "icon_id": "1110453",

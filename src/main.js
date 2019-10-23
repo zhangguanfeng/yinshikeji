@@ -3,9 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+// 重置默认样式
 import './assets/css/Chongzhi.css'
 // 引入字体图标
-import './assets/iconfont/font_1428289_dcpix6zsn9d/iconfont.css'
+import './assets/iconfont/font_1428289_taw8dp8he5r/iconfont.css'
 // 计算rem插件
 import 'lib-flexible/flexible'
 // 引入ui框架
@@ -16,7 +17,6 @@ Vue.use(Mint);
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 Vue.use(ElementUI);
-
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
